@@ -84,7 +84,7 @@ public static class SendToTransactionQueue
 
             return new OkObjectResult(new
             {
-                result = "success",
+                result = "sent to transaction-queue-sb",
                 roundId = data.Round.Id
             });
         }
